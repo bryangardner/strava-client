@@ -10,7 +10,7 @@
     <description>Java client for Strava APIs</description>
     <scm>
         <connection>scm:git:git@github.com:bryangardner/strava-client.git</connection>
-        <developerConnection>scm:git:git@github.com:bryangardner/strava-client.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/bryangardner/strava-client.git</developerConnection>
         <url>https://github.com/bryangardner/strava-client</url>
     </scm>
 
