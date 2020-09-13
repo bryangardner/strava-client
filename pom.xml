@@ -5,7 +5,7 @@
     <artifactId>strava-client</artifactId>
     <packaging>jar</packaging>
     <name>strava-client</name>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <url>https://github.com/swagger-api/swagger-codegen</url>
     <description>Java client for Strava APIs</description>
     <scm>
@@ -13,6 +13,14 @@
         <developerConnection>scm:git:git@github.com:bryangardner/strava-client.git</developerConnection>
         <url>https://github.com/bryangardner/strava-client</url>
     </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub bgardner Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/bgardner/strava-client</url>
+        </repository>
+    </distributionManagement>
 
     <licenses>
         <license>
