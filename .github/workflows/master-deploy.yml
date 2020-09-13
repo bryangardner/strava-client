@@ -21,8 +21,8 @@ jobs:
       - name: Prepare release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B -Dmaven.javadoc.skip=true -Dusername=$GITHUB_ACTOR -Dpassword=$GITHUB_TOKEN release:prepare
+        run: mvn -B -Dusername=$GITHUB_ACTOR -Dpassword=$GITHUB_TOKEN release:prepare
       - name: Perform release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B -Dmaven.javadoc.skip=true -Dusername=$GITHUB_ACTOR -Dpassword=$GITHUB_TOKEN release:perform
+        run: mvn -B -Dusername=$GITHUB_ACTOR -Dpassword=$GITHUB_TOKEN release:perform
