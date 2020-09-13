@@ -1,24 +1,24 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.bryangardner</groupId>
     <artifactId>strava-client</artifactId>
     <packaging>jar</packaging>
     <name>strava-client</name>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <url>https://github.com/swagger-api/swagger-codegen</url>
     <description>Java client for Strava APIs</description>
     <scm>
         <connection>scm:git:git@github.com:bryangardner/strava-client.git</connection>
         <developerConnection>scm:git:https://github.com/bryangardner/strava-client.git</developerConnection>
         <url>https://github.com/bryangardner/strava-client</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub bgardner Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/bgardner/strava-client</url>
+            <url>https://maven.pkg.github.com/bryangardner/strava-client</url>
         </repository>
     </distributionManagement>
 
@@ -35,7 +35,7 @@
             <name>Bryan Gardner</name>
             <email>apiteam@swagger.io</email>
             <organization>Swagger</organization>
-            <organizationUrl />
+            <organizationUrl></organizationUrl>
         </developer>
     </developers>
 
